@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: black;
+}
+h1{
+    font-size: 3.5rem;
+    color: rgb(249, 249, 249);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: rgb(111, 252, 111);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    border: none;
+}
+.choices button:hover{
+    background-color: rgb(112, 181, 245);
+    box-shadow: 2px 3px 50px rgb(238, 254, 0);
+}
+.choices button::after{
+    background-color: rgb(255, 131, 131);
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+    padding: 10px;
+    color: rgb(161, 161, 161);
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 50px 0;
+    background-color: rgb(255,200,61);
+    padding: 20px 20px;
+    border-radius: 70px;
+    box-shadow: 2px 3px 50px rgb(238, 254, 0);
+}
